@@ -1,13 +1,57 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  background-color: #eee;
+  padding: 0 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.Header {
+  background-color: yellowgreen;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(50, 50, 10, 1);
+}
+.Header h1 {
+  color: aliceblue;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.Footer {
+  color: rgb(120, 120, 120);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+.Note {
+  background-color: white;
+  border-radius: 10px;
+  margin: 16px;
+  width: 240px;
+  float: left;
+  padding: 10px;
+  box-shadow: 0 2px 5px;
+}
+
+.Note h1 {
+  margin-bottom: 6px;
+  font-size: 1.1em;
+}
+
+.Note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
