@@ -43,7 +43,15 @@ html {
   padding: 10px;
   box-shadow: 0 2px 5px;
 }
-
+.input {
+  background-color: white;
+  border-radius: 10px;
+  margin: 16px;
+  width: 240px;
+  float: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px;
+}
 .Note h1 {
   margin-bottom: 6px;
   font-size: 1.1em;
